@@ -35,11 +35,13 @@
       <HintPath>..\..\Qurre\Qurre\bin\Debug\Qurre.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>..\..\Qurre\lib\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Config.cs" />
     <Compile Include="EventHandlers.cs" />
     <Compile Include="Plugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

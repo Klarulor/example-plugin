@@ -12,8 +12,7 @@ namespace example
 		}
 		public void PlayerJoin(JoinEvent ev /* <- event */) /* <- the method called by the player entering the server */
 		{
-			string str = $"\n<color=#00fffb>Welcome</color>\n<color=#09ff00>Enjoy game!</color>"; /* <- text */
-			ev.Player.ShowHint(str, 10); /* <- shows hint with text for 10 sec */
+			ev.Player.ShowHint(plugin.CustomConfig.Welcome, 10); /* <- shows hint with text for 10 sec */
 		}
 	}
 }
